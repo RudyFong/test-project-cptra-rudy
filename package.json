@@ -1,0 +1,47 @@
+{
+  "name": "ciputraProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.3",
+    "@react-navigation/native": "^6.0.10",
+    "@react-navigation/native-stack": "^6.6.1",
+    "add": "^2.0.6",
+    "call-once-in-interval": "^1.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.2",
+    "prop-types": "^15.8.1",
+    "react": "16.13.1",
+    "react-native": "0.63.2",
+    "react-native-safe-area-context": "^3.4.1",
+    "react-native-screens": "^3.13.1",
+    "react-navigation-redux-helpers": "^4.0.1",
+    "react-redux": "7.2.1",
+    "redux": "4.0.5",
+    "redux-actions": "^2.6.5",
+    "redux-form": "^8.3.8",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.4.1",
+    "yarn": "^1.22.18"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/runtime": "^7.17.9",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.13.0",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.70.1",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
